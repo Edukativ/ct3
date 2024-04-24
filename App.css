@@ -1,0 +1,55 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+.container {
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+}
+
+.product_container {
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+
+}
+
+.product_wrapper {
+  border: 1px solid #000;
+  width: 30%;
+  height: 380px;
+  background-color: transparent;
+  margin: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.image {
+  width: 350px;
+  height: 250px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.footer {
+  height: 100px;
+  background-color: rebeccapurple;
+}
+
+.header {
+  height: 100px;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.scroll_button {
+  padding: 10px;
+  margin-right: 20px;
+}
